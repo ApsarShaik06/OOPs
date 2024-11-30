@@ -14,9 +14,9 @@ public class Oops {
         Animal a1 = new Animal();
 
         Fish f1 = new Fish();
-        System.out.println(f1.eat());
-        System.out.println(f1.breathes());
-        System.out.println(f1.swin());
+        f1.eat();
+        f1.breathes();
+        f1.swin();
     }
 }
 
